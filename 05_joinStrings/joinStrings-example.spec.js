@@ -1,19 +1,21 @@
-const values = require('./joinStrings-example')
+const values = require("./joinStrings-example");
 
-describe('joinStrings-example', () => {
-  test('birthYear is 1947', () => {
-    expect(values.birthYear).toEqual(1947);
+describe("joinStrings-example", () => {
+  test("birthYear is 2002", () => {
+    expect(values.birthYear).toEqual(2002);
   });
-  test('thisYear is 1965', () => {
-    expect(values.thisYear).toEqual(1965);
+  test("thisYear is 2025", () => {
+    expect(values.thisYear).toEqual(2025);
   });
-  test('firstName is Carlos', () => {
-    expect(values.firstName).toEqual('Carlos');
+  test("firstName is Abdel-Arip", () => {
+    expect(values.firstName).toEqual("Abdel-Arip");
   });
-  test('lastName is Stevenson', () => {
-    expect(values.lastName).toEqual('Stevenson');
+  test("lastName is Saripada", () => {
+    expect(values.lastName).toEqual("Saripada");
   });
-  test('greeting is put together correctly', () => {
-    expect(values.greeting).toEqual('Hello! My name is Carlos Stevenson and I am 18 years old.');
+  test("greeting is put together correctly", () => {
+    expect(values.greeting).toEqual(
+      "Hello! My name is Abdel-Arip Saripada and I am 23 years old."
+    );
   });
 });
